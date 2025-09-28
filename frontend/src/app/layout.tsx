@@ -1,4 +1,3 @@
-// frontend/src/app/layout.tsx
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -10,8 +9,8 @@ import { API_URL } from "@/utils/env";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Initial System",
-  description: "A modern authentication system built with Next.js and FastAPI",
+  title: "CreativePortfolio | Showcase Your Creative Work",
+  description: "A professional portfolio platform for artists, designers, and creatives to showcase their work and connect with clients",
   icons: {
     icon: `${API_URL}/assets/default/favicon.ico`,
     shortcut: `${API_URL}/assets/default/favicon.ico`,
